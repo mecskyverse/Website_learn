@@ -1,7 +1,13 @@
+body{
+
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1{
     text-align: center;
     text-decoration: wavy;
-    background-color: violet;
+    background-color: lightblue;
 
-    
+
 }
