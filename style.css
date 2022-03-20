@@ -1,19 +1,43 @@
 body{
 
-    background-image: url("background.jpg");
+    background-color: #008080;
     background-repeat: no-repeat;
     background-size: cover;
 }
 h1{
     text-align: center;
     text-decoration: wavy;
-    background-color: lightblue;
+    background-color: orange;
+    border: 5px;
+    border-style: dotted;
+    border-color: coral;
 
 
 }
+nav
+{
+    overflow: hidden;
+}
+nav a
+{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float:left;
+    color: white;
+}
+p .head{
+
+    color: rgba(255, 187, 0, 0.835);
+    text-align: center;
+    text-decoration: wavy;
+    font-size:  25px;
+}
+
 a{
     color: whitesmoke;
     text-align:center;
+    display: block;
     text-decoration:none;
     padding: 14px 25px;
 }
