@@ -20,6 +20,7 @@ nav
 }
 nav a
 {
+    font-family:cursive;
     text-decoration: none;
     padding: 20px;
     text-align: center;
@@ -33,14 +34,18 @@ p .head{
     text-decoration: wavy;
     font-size:  25px;
 }
-
-a{
-    color: whitesmoke;
-    text-align:center;
-    display: block;
-    text-decoration:none;
-    padding: 14px 25px;
+p.ind{
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 150%;
+   text-align: center;
+   border-radius: 50px;
+   border-inline:var(150%);
+   border: 5px;
+   border-style:dashed;
+   line-height: 50px;
+    
 }
+
 form
 {
 color:aqua;
