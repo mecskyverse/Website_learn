@@ -1,0 +1,41 @@
+body
+{
+    background-color: rgba(0,0,0, 0.5)
+}
+h2
+{
+  
+    text-align: center;
+    color: orange;
+    font-size: 200%;
+}
+nav
+{
+    overflow: hidden;
+}
+nav a
+{
+border: 5px;
+    color: aliceblue;
+    padding: 30px;
+    font-size: 150%;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    float: left;
+}
+.hello{
+    background: mediumaquamarine;
+    border-radius: 2% 50%;
+    height: 100px;
+    margin: 100px;
+    transition: all 3s;
+    transition-timing-function: ease-in-out;
+    width: 100px;
+  
+    
+    
+  }
+  .hello:hover{
+      transform:translateX()
+
+  }
